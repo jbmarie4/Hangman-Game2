@@ -1,0 +1,78 @@
+body{
+	background-color:pink;
+	background-image:url("./images/sugar.png");
+}
+
+h1{
+	text-align:center;
+	font-size:40px;
+	letter-spacing:2px;
+	font-weight:bold;
+	margin-bottom:8px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;;
+}
+
+h2{
+	font-size:35px;
+	text-align:center;
+	letter-spacing:3px;
+	color:#ff72be;
+	font-weight:bold;
+	font-family:georgian;
+}
+
+#container{
+	border:3px solid black;
+	background-color:white;
+	color:black;
+	width:70%;
+	height:575px;
+	margin:50px auto;
+}
+
+#hangman-image{
+	/*background-image:url("./images/Hangman-1.png");*/
+	background-repeat:no-repeat;
+	border:1px transparent;
+	width:200px;
+	height:150px;
+	font-size:40px;
+	margin:auto;
+}
+
+img{
+	height:120px;
+	margin-top:25px;
+	margin-left:30%;
+}
+
+#rightAnswers{
+	border:3px solid black;
+	background-color:lightgray;
+	width:70%;
+	height:90px;
+	margin:auto;
+	margin-top:-5px;
+	font-size:30px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;;
+}
+
+#wrongAnswers{
+	border:3px solid black;
+	background-color:lightgray;
+	width:70%;
+	height:90px;
+	margin:15px auto;
+	font-size:30px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;;
+}
+
+#underscores{
+	border:3px solid black;
+	background-color:lightgray;
+	width:70%;
+	height:90px;
+	margin:auto;
+	font-size:60px;
+	text-align:center;
+}
