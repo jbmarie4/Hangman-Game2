@@ -81,7 +81,7 @@
 	alert("Only 1 guess left.");
 	}if(wrongGuess==6){
 	document.getElementById("hangman-image").innerHTML=("<img src=" +hangmanImg[6]+ " >");
-	alert("You Lose!");
+	alert("You Lose! The correct word was \"" + randomWord + ".\" ");
 	location.reload();
 	}
 	}
